@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from "react-router-dom"
 import Login from './pages/login/login'
 import FarmerHome from './pages/home/FarmerHome'
+import './App.css'
 
 const App = () => {
   return (
