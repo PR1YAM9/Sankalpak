@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import LoginA from "./pages/logIn/LoginA";
 const App = () => {
   return (
-    <>App</>
-  )
-}
+    <>
+      <LoginA />
+    </>
+  );
+};
 
-export default App
+export default App;
