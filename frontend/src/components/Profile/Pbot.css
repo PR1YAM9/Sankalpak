@@ -1,0 +1,68 @@
+.pb-img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: -100px;
+  flex-direction: column;
+  gap: 10px;
+}
+.pb-btn {
+  border-radius: 10px;
+  background: #5162fa;
+  color: white;
+  width: 124px;
+  height: 33px;
+  border: 0;
+  font-family: "Inter";
+}
+.pb-img p {
+  margin: 0;
+  color: #000;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+}
+.pb-input {
+  margin: 5px 22px;
+  /* justify-content: space-evenly; */
+  display: flex;
+  gap: 12px;
+  background-color: #f6f6f6;
+  color: #bdbdbd;
+  width: 343px;
+  height: 50px;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.pb-input label {
+  height: fit-content;
+  padding-left: 10px;
+}
+.pb-input input {
+  height: 20px;
+  width: 185px;
+}
+.pb-form {
+  margin-top: 20px;
+}
+.pb-input img {
+  margin-left: 20px;
+}
+.pb-fid input {
+  width: 162px;
+}
+.pb-acn input {
+  width: 114px;
+}
+.pb-save {
+  justify-content: end;
+  display: flex;
+  margin-right: 22px;
+  margin-top: 15px;
+}
+.p-bot{
+    margin-bottom: 94px;
+}
