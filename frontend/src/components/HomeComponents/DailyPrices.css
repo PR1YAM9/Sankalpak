@@ -1,0 +1,79 @@
+.DPcontainer{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin: auto 20px;
+    background-color: #5162FA;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    height: 120px;
+}
+.DPtitle{
+    margin-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 19px; */
+    margin-top: 10px;
+    letter-spacing: 0em;
+}
+.DPinner{
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    /* height: 100%; */
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto 20px;
+}
+.DPleft{
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.DPright{
+    margin-right: 20px;
+}
+.DPrightTop{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    
+}
+.DPrightTop{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.DPrightTop select{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 10px;
+}
