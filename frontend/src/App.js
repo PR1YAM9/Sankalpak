@@ -5,6 +5,7 @@ import './App.css'
 import Profile from './pages/profile/Profile'
 import Login from "./pages/Log/Login"
 import Edu from './pages/edu/Edu'
+import YourList from './pages/yourList/YourList'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
     <Route path="/farmerhome" element={<FarmerHome />} />
     <Route path="/profile" element={<Profile />} />
     <Route path="/edu" element={<Edu />} />
+    <Route path="/your-listings" element={<YourList/>}  />
     </Routes>
    
     </>
