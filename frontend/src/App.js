@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from "react-router-dom"
-import Login from './pages/logIn/login'
+import Login from './pages/login/Login'
 import FarmerHome from './pages/home/FarmerHome'
 import './App.css'
 import Profile from './pages/profile/Profile'
