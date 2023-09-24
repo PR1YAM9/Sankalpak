@@ -13,7 +13,6 @@ const App = () => {
     <Route path="/farmerhome" element={<FarmerHome />} />
     <Route path="/profile" element={<Profile />} />
     </Routes>
-    
     </>
   )
 }
