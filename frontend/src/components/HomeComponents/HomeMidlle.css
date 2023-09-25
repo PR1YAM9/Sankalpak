@@ -37,3 +37,6 @@ text-align: center;
 .HMImgcover{
     max-width: fit-content;
 }
+.HMcard a{
+    text-decoration: none;
+}

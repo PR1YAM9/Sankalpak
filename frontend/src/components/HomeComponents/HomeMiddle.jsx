@@ -6,6 +6,7 @@ import newsImg from '../../images/newsImg.svg';
 import educationImg from '../../images/educationImg.svg';
 import analyticsImg from '../../images/analyticsImg.svg';
 import './HomeMidlle.css'
+import { Link } from 'react-router-dom';
 
 const ImgData=[
     {
@@ -26,7 +27,8 @@ const ImgData=[
     },
     {
         img:educationImg,
-        title:"Education"
+        title:"Education",
+        path: "/edu"
     },
     {
         img:analyticsImg,
@@ -44,8 +46,10 @@ const HomeMiddle = () => {
                     ImgData.map((item,index)=>{
                         return(
                             <div className="HMcard" key={index}>
+                                <Link to={item.path}>
                                 <div className='HMImgcover'><img className="HMcardImg" src={item.img} alt="img" /></div>
                                 <figcaption className="HMcardTitle">{item.title}</figcaption>
+                                </Link>
                             </div>
                         )
                     }

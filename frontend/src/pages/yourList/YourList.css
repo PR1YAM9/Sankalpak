@@ -1,0 +1,36 @@
+.yl-top{
+    display: flex;
+    height: 78px;
+    background: #5162FA;
+    color: white;
+    font-family: "Inter";
+    justify-content: center;
+    padding-top: 40px;
+}
+.yl-top p{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+/* .yl-bottom{
+    margin-top: 20px;
+} */
+
+.yl-btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px;
+}
+.yl-back{
+    margin-left: 16px;
+    top: -75px;
+    bottom: 0;
+    position: relative;
+    color: white;
+    font-size: 18px;
+}
+.yl-back a{
+    color: white;
+    text-decoration: none;
+}
